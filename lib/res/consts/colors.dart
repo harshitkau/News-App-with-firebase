@@ -14,7 +14,9 @@ class AppColors {
       sliderSelectedDark = Color(0xff424242),
       categoryGrey = Color(0x0f556e7a),
       heartGrey = Color(0xff757575),
-      imageCard = Color(0xffE0E0E0);
+      imageCard = Color(0xffE0E0E0),
+      google = Color(0xff438AFE),
+      fb = Color(0xff3F51B5);
 
   // /profile
   static const loginCard = Color(0xff438aFE),

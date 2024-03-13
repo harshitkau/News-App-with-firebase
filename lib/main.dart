@@ -19,6 +19,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       getPages: AppRoutes.getRoutes(),
       theme: ThemeData(
+          appBarTheme: const AppBarTheme(
+              iconTheme: IconThemeData(color: AppColors.icon),
+              backgroundColor: Colors.transparent,
+              elevation: 0.0),
           fontFamily: AppFonts.regular,
           scaffoldBackgroundColor: AppColors.background,
           iconTheme: const IconThemeData(color: AppColors.icon)),

@@ -21,6 +21,6 @@ class OnBoardingController extends GetxController {
   }
 
   orContinueOrSkippedPressed() {
-    Get.offNamed(RouteName.login);
+    Get.offNamed(RouteName.authentication);
   }
 }

@@ -16,7 +16,7 @@ class SplashPage extends GetView<SpalshController> {
             const Spacer(),
             Image.asset(
               AppAssets.logo,
-              width: 340,
+              width: 140,
             ),
             const Spacer(),
             Text(

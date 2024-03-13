@@ -5,3 +5,4 @@ export "./string.dart";
 export "./styles.dart";
 export "./variales.dart";
 export 'package:flutter/material.dart';
+export './colors.dart';
