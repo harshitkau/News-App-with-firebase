@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:news_app/res/routes/route_name.dart';
 
 class HomeController extends GetxController {
   HomeController();
@@ -14,5 +15,9 @@ class HomeController extends GetxController {
 
   changeSwiperIndex(int value) {
     currentSwiperIndex = value;
+  }
+
+  onNewsTapped() {
+    Get.toNamed(RouteName.newsDetails);
   }
 }

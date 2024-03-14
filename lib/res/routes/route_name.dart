@@ -4,5 +4,6 @@ class RouteName {
       authentication = '/authentication',
       login = '/login',
       signup = '/signup',
-      home = '/home';
+      home = '/home',
+      newsDetails = '/newsDetails';
 }
